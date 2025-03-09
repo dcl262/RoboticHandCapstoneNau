@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+header {
+    background: #425ff0; /* Light blue color */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; /* Ensure the header spans the full width */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center text inside the main content */
+    max-width: 800px; /* Limit the width of the content for better readability */
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex; /* Use flexbox to distribute space evenly */
+    justify-content: space-between; /* Space out the links evenly */
+    width: 100%; /* Make the nav span the full width of the header */
+}
+
+nav ul li {
+    flex: 1; /* Each li will take up equal space */
+    text-align: center; /* Center the text inside each li */
+    padding: 10px 0; /* Add padding for better spacing */
+    border: 2px solid #000; /* Add a black border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin: 0 5px; /* Add a small margin between the links */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block; /* Make the link fill the entire li */
+}
+.team-member {
+    margin-bottom: 30px; /* Space between team members */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border around each team member */
+    border-radius: 10px; /* Optional: Rounded corners */
+    background-color: #fff; /* Optional: White background */
+    text-align: center; /* Center-align content */
+}
+
+.team-photo {
+    width: 150px; /* Set a fixed width for the photos */
+    height: 150px; /* Set a fixed height for the photos */
+    border-radius: 50%; /* Make the photos circular */
+    object-fit: cover; /* Ensure the photo fills the space without distortion */
+    margin-top: 15px; /* Space between text and photo */
+    border: 3px solid #87CEEB; /* Light blue border around the photo */
+}
